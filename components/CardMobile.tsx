@@ -1,4 +1,3 @@
-// components/CardMobile.tsx
 import React from 'react';
 import RatingStars from 'react-rating-stars-component';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

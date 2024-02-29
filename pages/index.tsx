@@ -1,4 +1,3 @@
-// components/index.tsx
 import React from 'react';
 import Layout from '../components/Layout';
 import CardMobile from '../components/CardMobile';
