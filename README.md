@@ -15,6 +15,7 @@ O objetivo deste projeto é demonstrar habilidades técnicas e práticas de dese
 - **Next.js:** Utilizamos o Next.js como framework React para fornecer renderização do lado do servidor, rotas automáticas, suporte a TypeScript e outras funcionalidades out-of-the-box.
 - **Tailwind CSS:** A abordagem utility-first do Tailwind CSS foi adotada para facilitar o desenvolvimento e garantir uma estilização consistente e escalável.
 - **Composition Pattern:** A aplicação do padrão de composição foi prioritizada para garantir componentes reutilizáveis, modularidade e manutenibilidade do código.
+- **Jest:** Usar o Jest para a aplicação de testes unitários deixam o projeto bem mais seguro e confiável.
 
 ## Como Executar o Projeto Localmente
 
@@ -39,6 +40,10 @@ Execute o projeto localmente:
 `npm run dev`
 ou
 `yarn dev`
+
+Execute os testes unitários:
+
+`npm run test`
 
 ## Estrutura do Projeto
 
