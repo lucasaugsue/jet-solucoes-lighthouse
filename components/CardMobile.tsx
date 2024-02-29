@@ -17,7 +17,7 @@ const CardMobile: React.FC<CardMobileProps> = ({ car, image, nextReservation, st
   const rowClassName = index % 2 !== 0 ? 'bg-gray-100' : 'bg-white';
 
   return (
-    <div className={`border-b border-gray-350 ${rowClassName} p-2 flex flex-row items-center mx-auto max-w-screen-md`} style={{ padding: '16px' }}>
+    <div className={`border border-gray-350 ${rowClassName} p-2 flex flex-row items-center mx-auto max-w-screen-md`} style={{ padding: '16px' }}>
       <div className="flex-shrink-0 relative mr-4">
         <img className="w-32 h-32" src={image} alt={car} />
         {status === 'Available' && (
