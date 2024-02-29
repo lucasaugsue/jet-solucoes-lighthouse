@@ -7,7 +7,7 @@ export const sampleCarData: CarData[] = [
     image: 'https://img.freepik.com/psd-premium/carro-esporte-em-fundo-transparente-renderizacao-3d-ilustracao_494250-46519.jpg',
     nextReservation: '2024-03-01',
     status: 'Available',
-    rating: 4.5
+    rating: 4.0
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const sampleCarData: CarData[] = [
     image: 'https://img.freepik.com/psd-premium/carro-esporte-em-fundo-transparente-renderizacao-3d-ilustracao_494250-47070.jpg',
     nextReservation: '2024-03-02',
     status: 'Booked',
-    rating: 3.8
+    rating: 3.5
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ export const sampleCarData: CarData[] = [
     image: 'https://img.freepik.com/psd-premium/carro-hiper-em-fundo-transparente-renderizacao-3d-ilustracao_494250-42998.jpg',
     nextReservation: '2024-03-03',
     status: 'Available',
-    rating: 4.0
+    rating: 5.0
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ export const sampleCarData: CarData[] = [
     image: 'https://img.freepik.com/psd-premium/carro-hiper-em-fundo-transparente-renderizacao-3d-ilustracao_494250-43341.jpg',
     nextReservation: '2024-03-03',
     status: 'Available',
-    rating: 4.7
+    rating: 3.0
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ export const sampleCarData: CarData[] = [
     image: 'https://img.freepik.com/psd-premium/carro-de-corrida-em-fundo-transparente-renderizacao-em-3d-ilustracao_494250-38066.jpg',
     nextReservation: '2024-03-03',
     status: 'Available',
-    rating: 3.9
+    rating: 2.5
   },
   {
     id: 6,
@@ -47,6 +47,6 @@ export const sampleCarData: CarData[] = [
     image: 'https://img.freepik.com/psd-premium/carro-esporte-em-fundo-transparente-renderizacao-3d-ilustracao_494250-48597.jpg',
     nextReservation: '2024-03-03',
     status: 'Available',
-    rating: 4.1
+    rating: 4.5
   },
 ];

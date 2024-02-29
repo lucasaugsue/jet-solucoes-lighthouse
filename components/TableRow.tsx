@@ -1,5 +1,6 @@
 // components/TableRow.tsx
 import React from 'react';
+import RatingStars from 'react-rating-stars-component';
 
 interface TableRowProps {
   car: string;
@@ -29,7 +30,15 @@ const TableRow: React.FC<TableRowProps> = ({ car, image, nextReservation, status
           {status}
         </button>
       </td>
-      <td className="w-1/5 p-2 text-gray-800 pl-2">{rating}</td>
+      <td className="w-1/5 p-2 text-gray-800 pl-2">
+        <RatingStars
+          value={rating}
+          edit={false}
+          size={24}
+          activeColor="#111928"
+          isHalf={true}
+        />
+      </td>
       <td className="w-1/5 p-2 text-gray-800 pl-2">Actions...</td>
     </tr>
   );
