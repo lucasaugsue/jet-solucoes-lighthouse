@@ -21,7 +21,7 @@ const TableRow: React.FC<TableRowProps> = ({ car, image, nextReservation, status
 
   return (
     <tr className={`border-b border-gray-350 ${rowClassName}`}>
-      <td className={`w-1/3 p-2 text-gray-800 pl-2`}>
+      <td className={`lg:1/4 md:w-1/3 p-2 text-gray-800 pl-2`}>
         <div className="flex items-center">
           <img className="w-16 h-16 mr-3" src={image} alt={car} />
           {car}
@@ -29,14 +29,14 @@ const TableRow: React.FC<TableRowProps> = ({ car, image, nextReservation, status
       </td>
       <td 
         style={{ color: '#6b7280' }}
-        className="w-1/5 p-2 text-gray-800 pl-2"
+        className="lg:1/4 md:w-1/4 p-2 text-gray-800 pl-2"
       > {nextReservation} </td>
-      <td className="w-1/5 p-2 pl-2">
+      <td className="lg:1/6 md:w-1/6 p-2 pl-2">
         <button className={`py-1 px-4 rounded-md ${buttonBackgroundColor} ${buttonTextColor}`}>
           {status}
         </button>
       </td>
-      <td className="w-1/5 p-2 text-gray-800 pl-2">
+      <td className="lg:1/5 md:w-1/5 p-2 text-gray-800 pl-2">
         <RatingStars
           count={5}
           value={rating}
@@ -46,7 +46,7 @@ const TableRow: React.FC<TableRowProps> = ({ car, image, nextReservation, status
           activeColor="#111928"
         />
       </td>
-      <td className="w-1/7 p-2 text-gray-800 pl-2 text-center"> 
+      <td className="lg:1/6 md:w-1/7 p-2 text-gray-800 pl-2 text-center"> 
         <FontAwesomeIcon icon={faEllipsisV} size="lg" />
       </td>
     </tr>

@@ -9,7 +9,7 @@ const Table: React.FC<TableProps> = ({ children }) => {
   const headerTexts = ["CAR", "NEXT RESERVATION", "STATUS", "RATING", "ACTIONS"];
   
   return (
-    <div className="my-16 border border-gray-300 max-w-screen-md bg-gray-100 rounded min-w-max mx-auto w-80vw table-border-color">
+    <div className="ml-10 mr-10 my-16 border border-gray-300 m-2 max-w-screen-2xl bg-gray-100 rounded mx-auto w-100vw table-border-color">
       <table className="w-full text-left">
         <thead>
           <tr style={{ backgroundColor: '#f9fafb' }} className="border-b border-gray-300">
