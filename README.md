@@ -1,47 +1,47 @@
-# TypeScript Next.js example
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+# Jet Soluções - Teste Técnico Frontend
 
-## Deploy your own
+Bem-vindo ao repositório do projeto de teste técnico frontend para a vaga na Jet Soluções! Este projeto foi desenvolvido utilizando TypeScript, Next.js, Tailwind CSS, Composition Pattern, e GitFlow.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript)
+**Link do Projeto:** [Jet Soluções - Lighthouse](https://jet-solucoes-lighthouse.vercel.app)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript&project-name=with-typescript&repository-name=with-typescript)
+## Resumo do Projeto
 
-## How to use it?
+O objetivo deste projeto é demonstrar habilidades técnicas e práticas de desenvolvimento frontend, com ênfase em boas práticas, organização de código, responsividade e utilização de tecnologias modernas.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Principais Tecnologias Utilizadas
 
-```bash
-npx create-next-app --example with-typescript with-typescript-app
-```
+- **TypeScript:** A linguagem de programação superset do JavaScript foi escolhida para garantir uma melhor experiência de desenvolvimento, fornecendo tipagem estática e outras melhorias.
+- **Next.js:** Utilizamos o Next.js como framework React para fornecer renderização do lado do servidor, rotas automáticas, suporte a TypeScript e outras funcionalidades out-of-the-box.
+- **Tailwind CSS:** A abordagem utility-first do Tailwind CSS foi adotada para facilitar o desenvolvimento e garantir uma estilização consistente e escalável.
+- **Composition Pattern:** A aplicação do padrão de composição foi prioritizada para garantir componentes reutilizáveis, modularidade e manutenibilidade do código.
 
-```bash
-yarn create next-app --example with-typescript with-typescript-app
-```
+## Como Executar o Projeto Localmente
 
-```bash
-pnpm create next-app --example with-typescript with-typescript-app
-```
+### Requisitos
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/lang/en/)
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Clone o repositório para sua máquina local:
 
-## Notes
+`git clone https://github.com/lucasaugsue/jet-solucoes-lighthouse`
 
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
+Instale as dependências:
 
-```
-npm install --save-dev typescript
-```
+`cd jet-solucoes-lighthouse`
 
-To enable TypeScript's features, we install the type declarations for React and Node.
+`npm install`
+# ou
+`yarn install`
 
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
+Execute o projeto localmente:
 
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
+`npm run dev`
+# ou
+`yarn dev`
 
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
+## Estrutura do Projeto
 
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+/components: Contém os componentes React reutilizáveis.
+/pages: Páginas do Next.js.
+/styles: Estilos globais e configurações do Tailwind CSS.
