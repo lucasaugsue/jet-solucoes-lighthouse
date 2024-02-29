@@ -31,13 +31,13 @@ Instale as dependências:
 `cd jet-solucoes-lighthouse`
 
 `npm install`
-# ou
+ou
 `yarn install`
 
 Execute o projeto localmente:
 
 `npm run dev`
-# ou
+ou
 `yarn dev`
 
 ## Estrutura do Projeto
