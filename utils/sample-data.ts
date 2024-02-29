@@ -5,7 +5,7 @@ export const sampleCarData: CarData[] = [
     id: 1,
     car: 'Ferrari 488 GTB',
     image: 'https://img.freepik.com/psd-premium/carro-esporte-em-fundo-transparente-renderizacao-3d-ilustracao_494250-46519.jpg',
-    nextReservation: '2024-03-01',
+    nextReservation: '11/07',
     status: 'Available',
     rating: 4.0
   },
@@ -13,7 +13,7 @@ export const sampleCarData: CarData[] = [
     id: 2,
     car: 'Porsche 911 Carrera',
     image: 'https://img.freepik.com/psd-premium/carro-esporte-em-fundo-transparente-renderizacao-3d-ilustracao_494250-47070.jpg',
-    nextReservation: '2024-03-02',
+    nextReservation: '03/14',
     status: 'Booked',
     rating: 3.5
   },
@@ -21,7 +21,7 @@ export const sampleCarData: CarData[] = [
     id: 3,
     car: 'Tesla Model S',
     image: 'https://img.freepik.com/psd-premium/carro-hiper-em-fundo-transparente-renderizacao-3d-ilustracao_494250-42998.jpg',
-    nextReservation: '2024-03-03',
+    nextReservation: '03/08',
     status: 'Available',
     rating: 5.0
   },
@@ -29,7 +29,7 @@ export const sampleCarData: CarData[] = [
     id: 4,
     car: 'Lamborghini Huracan',
     image: 'https://img.freepik.com/psd-premium/carro-hiper-em-fundo-transparente-renderizacao-3d-ilustracao_494250-43341.jpg',
-    nextReservation: '2024-03-03',
+    nextReservation: '03/30',
     status: 'Available',
     rating: 3.0
   },
@@ -37,7 +37,7 @@ export const sampleCarData: CarData[] = [
     id: 5,
     car: 'Ford Mustang',
     image: 'https://img.freepik.com/psd-premium/carro-de-corrida-em-fundo-transparente-renderizacao-em-3d-ilustracao_494250-38066.jpg',
-    nextReservation: '2024-03-03',
+    nextReservation: '03/25',
     status: 'Available',
     rating: 2.5
   },
@@ -45,7 +45,7 @@ export const sampleCarData: CarData[] = [
     id: 6,
     car: 'Audi R8',
     image: 'https://img.freepik.com/psd-premium/carro-esporte-em-fundo-transparente-renderizacao-3d-ilustracao_494250-48597.jpg',
-    nextReservation: '2024-03-03',
+    nextReservation: '03/16',
     status: 'Available',
     rating: 4.5
   },

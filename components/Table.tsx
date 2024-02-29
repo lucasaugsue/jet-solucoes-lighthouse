@@ -6,16 +6,22 @@ interface TableProps {
 }
 
 const Table: React.FC<TableProps> = ({ children }) => {
+  const headerTexts = ["CAR", "NEXT RESERVATION", "STATUS", "RATING", "ACTIONS"];
+  
   return (
-    <div className="my-16 border border-gray-500 max-w-screen-md bg-gray-100 rounded min-w-max mx-auto w-80vw">
+    <div className="my-16 border border-gray-300 max-w-screen-md bg-gray-100 rounded min-w-max mx-auto w-80vw table-border-color">
       <table className="w-full text-left">
         <thead>
-          <tr className="border-b border-gray-700 bg-gray-100">
-            <th className="p-2 text-gray-800 pl-2">Car</th>
-            <th className="p-2 text-gray-800 pl-2">Next Reservation</th>
-            <th className="p-2 text-gray-800 pl-2">Status</th>
-            <th className="p-2 text-gray-800 pl-2">Rating</th>
-            <th className="p-2 text-gray-800 pl-2">Actions</th>
+          <tr style={{ backgroundColor: '#f9fafb' }} className="border-b border-gray-300">
+            {headerTexts.map((text, index) => (
+              <th 
+                key={`${index}-${text}`} 
+                style={{ color: '#808793' }}
+                className={`pt-3 pb-3  ${text === 'CAR' ? 'pl-5' : (text === 'ACTIONS' ? 'pr-5' : 'pr-1 pl-1')}`} 
+              >
+                {text}
+              </th>
+            ))}
           </tr>
         </thead>
         <tbody>{children}</tbody>
