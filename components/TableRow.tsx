@@ -36,6 +36,9 @@ const TableRow: React.FC<TableRowProps> = ({ car, image, nextReservation, status
           edit={false}
           size={24}
           activeColor="#111928"
+          emptyIcon={<i className="far fa-star"></i>}
+          halfIcon={<i className="fa fa-star-half-alt"></i>}
+          fullIcon={<i className="fa fa-star"></i>}
           isHalf={true}
         />
       </td>
